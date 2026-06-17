@@ -19,26 +19,33 @@
   </head>
   <body>
     <main class="page home-page">
-      <section class="home-hero" aria-labelledby="title">
-        <div class="home-copy">
-          <p class="publisher">Foundation Books</p>
-          <h1 id="title">Foundation Books</h1>
-          <p class="subtitle">
-            Public textbook pages and companion resources for readers,
-            instructors, and self-study.
-          </p>
+      <header class="home-header">
+        <p class="publisher">Foundation Books</p>
+        <h1 id="title">Foundation Books</h1>
+        <p class="subtitle">
+          Textbooks and companion resources for readers, instructors, and
+          self-study.
+        </p>
+      </header>
+      <section class="book-shelf" aria-labelledby="books-title">
+        <div class="section-heading">
+          <p class="publisher">Books</p>
+          <h2 id="books-title">Available Titles</h2>
         </div>
-        <a class="book-feature" href="mathematics-in-deep-learning/">
+        <a class="book-card" href="mathematics-in-deep-learning/">
           <img
             src="assets/mathematics-in-deep-learning-cover.jpg"
             alt="Cover of Mathematics in Deep Learning"
             width="2550"
             height="3300"
           >
-          <span class="book-feature-copy">
-            <span class="book-feature-label">Featured book</span>
-            <span class="book-feature-title">Mathematics in Deep Learning</span>
-            <span class="book-feature-meta">Table of contents, Amazon, and companion code</span>
+          <span class="book-card-copy">
+            <span class="book-card-label">Available now</span>
+            <span class="book-card-title">Mathematics in Deep Learning</span>
+            <span class="book-card-description">
+              CNNs, Transformers, Diffusion Models, and LLMs.
+            </span>
+            <span class="book-card-meta">Book page, Amazon, and companion code</span>
           </span>
         </a>
       </section>
