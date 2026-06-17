@@ -15,12 +15,23 @@
     >
     <meta property="og:type" content="website">
     <meta property="og:image" content="assets/applied-deep-learning-cover.jpg">
-    <link rel="stylesheet" href="styles.css?v=book-hero-20260617">
+    <link rel="icon" type="image/png" href="assets/foundation-books-logo.png">
+    <link rel="apple-touch-icon" href="assets/foundation-books-logo.png">
+    <link rel="stylesheet" href="styles.css?v=brand-logo-20260617">
   </head>
   <body>
     <main class="page home-page">
       <header class="home-header">
-        <p class="publisher">Foundation Books</p>
+        <div class="brand-lockup">
+          <img
+            class="brand-logo"
+            src="assets/foundation-books-logo.png"
+            alt=""
+            width="460"
+            height="460"
+          >
+          <p class="publisher">Foundation Books</p>
+        </div>
         <h1 id="title">Foundation Books</h1>
         <p class="subtitle">
           Textbooks and companion resources for readers, instructors, and
@@ -28,25 +39,56 @@
         </p>
       </header>
       <section class="book-shelf" aria-label="Books">
-        <a class="book-card" href="mathematics-in-deep-learning/">
-          <img
-            src="assets/mathematics-in-deep-learning-cover.jpg"
-            alt="Cover of Mathematics in Deep Learning"
-            width="2550"
-            height="3300"
+        <article class="book-card">
+          <a
+            class="book-card-cover"
+            href="mathematics-in-deep-learning/"
+            aria-label="Mathematics in Deep Learning book page"
           >
-          <span class="book-card-copy">
+            <img
+              src="assets/mathematics-in-deep-learning-cover.jpg"
+              alt="Cover of Mathematics in Deep Learning"
+              width="2550"
+              height="3300"
+            >
+          </a>
+          <div class="book-card-copy">
             <span class="book-card-label">Available now</span>
-            <span class="book-card-title">Mathematics in Deep Learning</span>
+            <a
+              class="book-card-title book-card-title-link"
+              href="mathematics-in-deep-learning/"
+            >
+              Mathematics in Deep Learning
+            </a>
             <span class="book-card-description">
               Mathematical foundations for tensors, optimization, attention,
               generative models, vision, audio, and reinforcement learning.
             </span>
             <span class="book-card-meta">
-              Book page, sample chapters, Amazon, and companion code
+              Book page, sample chapters, and companion code
             </span>
-          </span>
-        </a>
+            <a
+              class="button primary book-card-buy"
+              href="https://www.amazon.com/dp/B0H1ZZHDT2"
+            >
+              <svg
+                class="button-icon"
+                aria-hidden="true"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <circle cx="8" cy="21" r="1"></circle>
+                <circle cx="19" cy="21" r="1"></circle>
+                <path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"></path>
+              </svg>
+              <span>Buy from Amazon</span>
+            </a>
+          </div>
+        </article>
         <a class="book-card" href="applied-deep-learning/">
           <img
             src="assets/applied-deep-learning-cover.jpg"
