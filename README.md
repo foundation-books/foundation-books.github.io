@@ -5,7 +5,8 @@ Static GitHub Pages site for the public `foundation-books.github.io` page.
 The generated site publishes only public artifacts:
 
 - `index.html` and `styles.css`
+- `mathematics-in-deep-learning/index.html`
 - the textbook cover image
-- links to the public companion code repository
+- links to Amazon and the public companion code repository
 
 The private textbook source repository is not included here.
