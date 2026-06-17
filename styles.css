@@ -278,6 +278,13 @@ h1 {
   border-top: 1px solid var(--line);
 }
 
+.samples {
+  max-width: 1160px;
+  margin: clamp(18px, 4vw, 44px) auto 0;
+  padding-top: clamp(24px, 4vw, 42px);
+  border-top: 1px solid var(--line);
+}
+
 .section-heading {
   display: grid;
   grid-template-columns: minmax(0, 0.48fr) minmax(0, 1fr);
@@ -324,6 +331,61 @@ h2 {
   font-size: 0.76rem;
   font-weight: 900;
   letter-spacing: 0.08em;
+}
+
+.sample-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  margin: clamp(24px, 5vw, 42px) 0 0;
+}
+
+.sample-card {
+  display: grid;
+  gap: 10px;
+  min-height: 238px;
+  padding: 20px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.62);
+  text-decoration: none;
+}
+
+.sample-card:hover,
+.sample-card:focus-visible {
+  border-color: rgba(0, 107, 95, 0.42);
+  background: #ffffff;
+}
+
+.sample-card:focus-visible {
+  outline: 3px solid rgba(0, 107, 95, 0.28);
+  outline-offset: 3px;
+}
+
+.sample-meta {
+  color: var(--gold);
+  font-size: 0.76rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.sample-title {
+  max-width: 28ch;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.45rem, 3vw, 2.05rem);
+  font-weight: 700;
+  line-height: 1.08;
+}
+
+.sample-description {
+  color: var(--muted);
+}
+
+.sample-action {
+  align-self: end;
+  color: var(--accent);
+  font-weight: 900;
 }
 
 @media (max-width: 960px) {
@@ -380,6 +442,7 @@ h2 {
   }
 
   .section-heading,
+  .sample-list,
   .toc-list {
     grid-template-columns: 1fr;
   }

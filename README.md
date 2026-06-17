@@ -6,6 +6,7 @@ The generated site publishes only public artifacts:
 
 - `index.html` and `styles.css`
 - `mathematics-in-deep-learning/index.html`
+- `mathematics-in-deep-learning/sample-chapters/*.pdf`
 - the textbook cover image
 - links to Amazon and the public companion code repository
 
