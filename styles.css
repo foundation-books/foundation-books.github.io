@@ -283,6 +283,20 @@ h1 {
   background: #ffffff;
 }
 
+.button.github {
+  border-color: #24292f;
+  background: #24292f;
+  color: #ffffff;
+  box-shadow: 0 12px 28px rgba(24, 33, 47, 0.18);
+}
+
+.button.github:hover,
+.button.github:focus-visible {
+  border-color: #0969da;
+  background: #0969da;
+  box-shadow: 0 14px 32px rgba(9, 105, 218, 0.22);
+}
+
 .button:focus-visible {
   outline: 3px solid rgba(0, 107, 95, 0.28);
   outline-offset: 3px;
