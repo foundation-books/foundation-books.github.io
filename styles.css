@@ -190,8 +190,18 @@ a {
   font-weight: 800;
 }
 
-.book-card-buy {
+.book-card-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
   justify-self: start;
+  margin-top: 2px;
+}
+
+.book-card-actions .button {
+  min-height: 44px;
+  padding: 0 14px;
 }
 
 .hero {
@@ -281,6 +291,21 @@ h1 {
 .button.secondary:hover,
 .button.secondary:focus-visible {
   background: #ffffff;
+}
+
+.button.kindle {
+  border-color: #8ec7f4;
+  background: #eef7ff;
+  color: #145d93;
+  box-shadow: 0 10px 24px rgba(20, 110, 180, 0.12);
+}
+
+.button.kindle:hover,
+.button.kindle:focus-visible {
+  border-color: #146eb4;
+  background: #146eb4;
+  color: #ffffff;
+  box-shadow: 0 14px 30px rgba(20, 110, 180, 0.24);
 }
 
 .button.github {
