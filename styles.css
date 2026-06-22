@@ -868,10 +868,10 @@ body.sglang-site-theme .button.kindle {
 
 body.sglang-site-theme .button.kindle:hover,
 body.sglang-site-theme .button.kindle:focus-visible {
-  border-color: #9a6323;
-  background: #9a6323;
-  color: #ffffff;
-  box-shadow: 0 14px 30px rgba(154, 99, 35, 0.24);
+  border-color: rgba(154, 99, 35, 0.48);
+  background: rgba(255, 241, 221, 0.92);
+  color: var(--blue);
+  box-shadow: 0 14px 30px rgba(154, 99, 35, 0.18);
 }
 
 body.sglang-site-theme .button.github {
