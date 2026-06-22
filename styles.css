@@ -884,7 +884,7 @@ body.sglang-site-theme .button.github {
 body.sglang-site-theme .button.github:hover,
 body.sglang-site-theme .button.github:focus-visible {
   border-color: #111827;
-  background: #111827;
+  background: linear-gradient(135deg, #2f3746 0%, #111827 100%);
   box-shadow: 0 14px 32px rgba(17, 24, 39, 0.26);
 }
 
@@ -987,6 +987,11 @@ body.sglang-site-theme .license-note a {
   body.sglang-site-theme .sample-card:hover,
   body.sglang-site-theme .sample-card:focus-visible {
     transform: translateY(-1px);
+  }
+
+  body.sglang-site-theme .button.github:hover,
+  body.sglang-site-theme .button.github:focus-visible {
+    transform: none;
   }
 }
 
