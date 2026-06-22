@@ -874,11 +874,18 @@ body.sglang-site-theme .button.kindle:focus-visible {
   box-shadow: 0 14px 30px rgba(154, 99, 35, 0.24);
 }
 
+body.sglang-site-theme .button.github {
+  border-color: #24292f;
+  background: linear-gradient(135deg, #2f3746 0%, #111827 100%);
+  color: #ffffff;
+  box-shadow: 0 12px 28px rgba(24, 33, 47, 0.18);
+}
+
 body.sglang-site-theme .button.github:hover,
 body.sglang-site-theme .button.github:focus-visible {
-  border-color: #8f252b;
-  background: #8f252b;
-  box-shadow: 0 14px 32px rgba(143, 37, 43, 0.24);
+  border-color: #111827;
+  background: #111827;
+  box-shadow: 0 14px 32px rgba(17, 24, 39, 0.26);
 }
 
 body.sglang-site-theme .button:focus-visible,
