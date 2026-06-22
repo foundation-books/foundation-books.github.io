@@ -931,6 +931,17 @@ body.sglang-site-theme .book-card img {
 body.sglang-site-theme .cover-stack.hero-mockup {
   display: block;
   align-self: center;
+  padding: 0;
+  border: 0;
+  overflow: visible;
+  background: transparent;
+  box-shadow: none;
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+}
+
+body.sglang-site-theme .cover-stack.hero-mockup::before {
+  content: none;
 }
 
 body.sglang-site-theme .cover-stack.hero-mockup img {
