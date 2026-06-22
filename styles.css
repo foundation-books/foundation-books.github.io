@@ -928,6 +928,16 @@ body.sglang-site-theme .book-card img {
   box-shadow: 0 28px 70px rgba(24, 33, 47, 0.24);
 }
 
+body.sglang-site-theme .cover-stack.hero-mockup {
+  display: block;
+  align-self: center;
+}
+
+body.sglang-site-theme .cover-stack.hero-mockup img {
+  width: 100%;
+  border-radius: 8px;
+}
+
 body.sglang-site-theme .volume-card,
 body.sglang-site-theme .sample-card,
 body.sglang-site-theme .toc-volume {
