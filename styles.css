@@ -435,6 +435,39 @@ h2 {
   letter-spacing: 0.08em;
 }
 
+.toc-entry {
+  min-width: 0;
+}
+
+.toc-title {
+  display: block;
+}
+
+.toc-slide-link {
+  display: inline-flex;
+  align-items: center;
+  justify-self: start;
+  margin-top: 8px;
+  color: var(--accent);
+  font-size: 0.76rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.toc-slide-link:hover,
+.toc-slide-link:focus-visible {
+  color: var(--accent-strong);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.toc-slide-link:focus-visible {
+  outline: 3px solid rgba(0, 107, 95, 0.28);
+  outline-offset: 3px;
+}
+
 .sample-list {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
