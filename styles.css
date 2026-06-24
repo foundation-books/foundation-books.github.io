@@ -366,6 +366,19 @@ h1 {
   box-shadow: 0 28px 70px rgba(24, 33, 47, 0.22);
 }
 
+.book-page .hero.adl-paperback-hero {
+  grid-template-columns: minmax(0, 0.9fr) minmax(360px, 620px);
+}
+
+.cover-panel.hero-mockup {
+  justify-self: center;
+  width: min(100%, 620px);
+}
+
+.cover-panel.hero-mockup img {
+  border-radius: 8px;
+}
+
 .contents {
   max-width: 1160px;
   margin: clamp(18px, 4vw, 44px) auto 0;
@@ -697,8 +710,16 @@ h2 {
     min-height: 0;
   }
 
+  .book-page .hero.adl-paperback-hero {
+    grid-template-columns: 1fr;
+  }
+
   .book-page .cover-panel {
     max-width: 300px;
+  }
+
+  .book-page .cover-panel.hero-mockup {
+    max-width: 560px;
   }
 
   .two-volume-page .cover-stack {
@@ -743,6 +764,10 @@ h2 {
 
   .cover-panel {
     max-width: 280px;
+  }
+
+  .cover-panel.hero-mockup {
+    max-width: 560px;
   }
 
   .facts {
@@ -807,6 +832,10 @@ h2 {
 
   .book-page .cover-panel {
     max-width: 210px;
+  }
+
+  .book-page .cover-panel.hero-mockup {
+    max-width: 420px;
   }
 
   .two-volume-page .cover-stack {
