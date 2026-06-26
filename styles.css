@@ -147,6 +147,13 @@ a {
   box-shadow: 0 22px 52px rgba(24, 33, 47, 0.18);
 }
 
+.book-card picture,
+.cover-panel picture,
+.cover-stack picture {
+  display: block;
+  min-width: 0;
+}
+
 .book-card-cover,
 .book-card-title-link {
   color: inherit;
@@ -1485,6 +1492,10 @@ body.mdl-site-theme .book-page .hero.mdl-cover-hero {
   grid-template-columns: minmax(0, 1fr) minmax(260px, 420px);
 }
 
+body.mdl-site-theme .book-page .hero.mdl-hardcover-hero {
+  grid-template-columns: minmax(0, 0.95fr) minmax(400px, 620px);
+}
+
 body.mdl-site-theme .cover-panel.mdl-cover-showcase {
   position: relative;
   justify-self: center;
@@ -1516,6 +1527,18 @@ body.mdl-site-theme .cover-panel.mdl-cover-showcase img {
   position: relative;
   border-radius: 6px;
   box-shadow: 0 28px 70px rgba(24, 33, 47, 0.24);
+}
+
+body.mdl-site-theme .cover-panel.mdl-hardcover-showcase {
+  align-self: center;
+  justify-self: center;
+  width: min(100%, 620px);
+  max-width: none;
+}
+
+body.mdl-site-theme .cover-panel.mdl-hardcover-showcase img {
+  border-radius: 8px;
+  box-shadow: 0 24px 58px rgba(10, 73, 84, 0.18);
 }
 
 body.mdl-site-theme .button {
@@ -1659,8 +1682,14 @@ body.mdl-site-theme .license-note a {
 }
 
 @media (max-width: 960px) {
-  body.mdl-site-theme .book-page .hero.mdl-cover-hero {
+  body.mdl-site-theme .book-page .hero.mdl-cover-hero,
+  body.mdl-site-theme .book-page .hero.mdl-hardcover-hero {
     grid-template-columns: 1fr;
+  }
+
+  body.mdl-site-theme .cover-panel.mdl-hardcover-showcase {
+    width: min(100%, 560px);
+    max-width: none;
   }
 
   body.mdl-site-theme .cover-panel.mdl-cover-showcase {
@@ -1693,5 +1722,10 @@ body.mdl-site-theme .license-note a {
     width: min(100%, 270px);
     max-width: none;
     padding: 12px;
+  }
+
+  body.mdl-site-theme .cover-panel.mdl-hardcover-showcase {
+    width: min(100%, 420px);
+    max-width: none;
   }
 }

@@ -14,10 +14,10 @@
       content="A Foundation Books textbook page with sample chapters, free chapter overview slides, table of contents, Amazon, and companion code."
     >
     <meta property="og:type" content="book">
-    <meta property="og:image" content="../assets/applied-deep-learning-paperback-imagegen-mockup.png">
-    <link rel="icon" type="image/png" href="../assets/foundation-books-logo.png">
-    <link rel="apple-touch-icon" href="../assets/foundation-books-logo.png">
-    <link rel="stylesheet" href="../styles.css?v=site-20260626-1">
+    <meta property="og:image" content="../assets/applied-deep-learning-paperback-imagegen-mockup-1200.jpg">
+    <link rel="icon" type="image/png" sizes="96x96" href="../assets/foundation-books-logo-96.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/foundation-books-logo-180.png">
+    <link rel="stylesheet" href="../styles.css?v=site-20260626-2">
   </head>
   <body class="adl-site-theme">
     <main class="page book-page">
@@ -25,10 +25,17 @@
         <a class="site-brand" href="../">
           <img
             class="site-brand-logo"
-            src="../assets/foundation-books-logo.png"
+            src="../assets/foundation-books-logo-68.png"
+            srcset="
+              ../assets/foundation-books-logo-68.png 68w,
+              ../assets/foundation-books-logo-96.png 96w,
+              ../assets/foundation-books-logo-152.png 152w
+            "
+            sizes="34px"
             alt=""
-            width="460"
-            height="460"
+            width="68"
+            height="68"
+            decoding="async"
           >
           <span>Foundation Books</span>
         </a>
@@ -101,12 +108,33 @@
           </div>
         </div>
         <figure class="cover-panel hero-mockup">
-          <img
-            src="../assets/applied-deep-learning-paperback-imagegen-mockup.png"
-            alt="Paperback mockup of Applied Deep Learning"
-            width="1536"
-            height="1024"
-          >
+          <picture>
+            <source
+              type="image/webp"
+              srcset="
+                ../assets/applied-deep-learning-paperback-imagegen-mockup-640.webp 640w,
+                ../assets/applied-deep-learning-paperback-imagegen-mockup-920.webp 920w,
+                ../assets/applied-deep-learning-paperback-imagegen-mockup-1200.webp 1200w,
+                ../assets/applied-deep-learning-paperback-imagegen-mockup-1536.webp 1536w
+              "
+              sizes="(max-width: 460px) 280px, 460px"
+            >
+            <img
+              src="../assets/applied-deep-learning-paperback-imagegen-mockup-920.jpg"
+              srcset="
+                ../assets/applied-deep-learning-paperback-imagegen-mockup-640.jpg 640w,
+                ../assets/applied-deep-learning-paperback-imagegen-mockup-920.jpg 920w,
+                ../assets/applied-deep-learning-paperback-imagegen-mockup-1200.jpg 1200w,
+                ../assets/applied-deep-learning-paperback-imagegen-mockup-1536.jpg 1536w
+              "
+              sizes="(max-width: 460px) 280px, 460px"
+              alt="Paperback mockup of Applied Deep Learning"
+              width="920"
+              height="613"
+              decoding="async"
+              fetchpriority="high"
+            >
+          </picture>
         </figure>
       </section>
       <section class="samples" aria-labelledby="sample-chapters">
