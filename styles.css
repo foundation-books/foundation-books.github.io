@@ -1493,7 +1493,7 @@ body.mdl-site-theme .book-page .hero.mdl-cover-hero {
 }
 
 body.mdl-site-theme .book-page .hero.mdl-hardcover-hero {
-  grid-template-columns: minmax(0, 0.95fr) minmax(400px, 620px);
+  grid-template-columns: minmax(0, 1fr) minmax(320px, 520px);
 }
 
 body.mdl-site-theme .cover-panel.mdl-cover-showcase {
@@ -1532,7 +1532,7 @@ body.mdl-site-theme .cover-panel.mdl-cover-showcase img {
 body.mdl-site-theme .cover-panel.mdl-hardcover-showcase {
   align-self: center;
   justify-self: center;
-  width: min(100%, 620px);
+  width: min(100%, 520px);
   max-width: none;
 }
 
