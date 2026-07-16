@@ -6,18 +6,18 @@
     <title>Deep Dive into SGLang | Foundation Books</title>
     <meta
       name="description"
-      content="Book page for Deep Dive into SGLang by Yin Yang, with Volume I and Volume II editions, sample pages, table of contents, Amazon links, and shared companion code."
+      content="Book page for Deep Dive into SGLang by Yin Yang, with Volume I and Volume II editions, sample pages, free chapter overview slides, table of contents, Amazon links, and shared companion code."
     >
     <meta property="og:title" content="Deep Dive into SGLang">
     <meta
       property="og:description"
-      content="A Foundation Books two-volume systems book on SGLang runtime, scheduling, memory, decoding, distributed serving, kernels, and measurement."
+      content="A Foundation Books two-volume systems book with free chapter overview slides on SGLang runtime, scheduling, memory, decoding, distributed serving, kernels, and measurement."
     >
     <meta property="og:type" content="book">
     <meta property="og:image" content="../assets/deep-dive-into-sglang-hardcover-imagegen-mockup-1200.jpg">
     <link rel="icon" type="image/png" sizes="96x96" href="../assets/foundation-books-logo-96.png">
     <link rel="apple-touch-icon" sizes="180x180" href="../assets/foundation-books-logo-180.png">
-    <link rel="stylesheet" href="../styles.css?v=site-20260626-2">
+    <link rel="stylesheet" href="../styles.css?v=site-20260717-1">
   </head>
   <body class="sglang-site-theme">
     <main class="page book-page two-volume-page">
@@ -352,51 +352,308 @@
           <p class="publisher">Book contents</p>
           <h2 id="contents-title">Table of Contents</h2>
         </div>
+        <p class="license-note">
+          Free chapter overview slides are released under the
+          <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a>
+          license.
+        </p>
         <div class="toc-grid">
           <div class="toc-volume">
             <h3>Volume I</h3>
             <ol class="toc-list">
-              <li>Preliminaries</li>
-              <li>The Inference Serving Problem</li>
-              <li>Transformer Inference Cost Model</li>
-              <li>SGLang Runtime as a Distributed State Machine</li>
-              <li>Continuous Batching</li>
-              <li>Chunked Prefill and Overlap Scheduling</li>
-              <li>KV Cache Memory Management</li>
-              <li>RadixAttention and Prefix Reuse</li>
-              <li>Hierarchical Caching</li>
-              <li>Attention Backends</li>
-              <li>MLA, MHA, Linear Attention, and Hybrid Models</li>
-              <li>ModelRunner and Forward Batches</li>
-              <li>Model Architecture Dispatch and Loader Boundaries</li>
-              <li>Sampling and Logits Processing</li>
-              <li>Structured Outputs</li>
-              <li>Reasoning and Tool-Call Parsing</li>
-              <li>Speculative Decoding</li>
-              <li>Diffusion Language Models and Blockwise Decoding</li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">Preliminaries</span>
+                  <a class="toc-slide-link" href="chapter-overview-slides/chapter-01-preliminaries.pdf" aria-label="Open Chapter 1 overview slides PDF: Preliminaries" title="Overview slides PDF">
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">The Inference Serving Problem</span>
+                  <a class="toc-slide-link" href="chapter-overview-slides/chapter-02-the-inference-serving-problem.pdf" aria-label="Open Chapter 2 overview slides PDF: The Inference Serving Problem" title="Overview slides PDF">
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">Transformer Inference Cost Model</span>
+                  <a class="toc-slide-link" href="chapter-overview-slides/chapter-03-transformer-inference-cost-model.pdf" aria-label="Open Chapter 3 overview slides PDF: Transformer Inference Cost Model" title="Overview slides PDF">
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">SGLang Runtime as a Distributed State Machine</span>
+                  <a class="toc-slide-link" href="chapter-overview-slides/chapter-04-sglang-runtime-as-a-distributed-state-machine.pdf" aria-label="Open Chapter 4 overview slides PDF: SGLang Runtime as a Distributed State Machine" title="Overview slides PDF">
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">Continuous Batching</span>
+                  <a class="toc-slide-link" href="chapter-overview-slides/chapter-05-continuous-batching.pdf" aria-label="Open Chapter 5 overview slides PDF: Continuous Batching" title="Overview slides PDF">
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">Chunked Prefill and Overlap Scheduling</span>
+                  <a class="toc-slide-link" href="chapter-overview-slides/chapter-06-chunked-prefill-and-overlap-scheduling.pdf" aria-label="Open Chapter 6 overview slides PDF: Chunked Prefill and Overlap Scheduling" title="Overview slides PDF">
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">KV Cache Memory Management</span>
+                  <a class="toc-slide-link" href="chapter-overview-slides/chapter-07-kv-cache-memory-management.pdf" aria-label="Open Chapter 7 overview slides PDF: KV Cache Memory Management" title="Overview slides PDF">
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">RadixAttention and Prefix Reuse</span>
+                  <a class="toc-slide-link" href="chapter-overview-slides/chapter-08-radixattention-and-prefix-reuse.pdf" aria-label="Open Chapter 8 overview slides PDF: RadixAttention and Prefix Reuse" title="Overview slides PDF">
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">Hierarchical Caching</span>
+                  <a class="toc-slide-link" href="chapter-overview-slides/chapter-09-hierarchical-caching.pdf" aria-label="Open Chapter 9 overview slides PDF: Hierarchical Caching" title="Overview slides PDF">
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">Attention Backends</span>
+                  <a class="toc-slide-link" href="chapter-overview-slides/chapter-10-attention-backends.pdf" aria-label="Open Chapter 10 overview slides PDF: Attention Backends" title="Overview slides PDF">
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">MLA, MHA, Linear Attention, and Hybrid Models</span>
+                  <a class="toc-slide-link" href="chapter-overview-slides/chapter-11-mla-mha-linear-attention-and-hybrid-models.pdf" aria-label="Open Chapter 11 overview slides PDF: MLA, MHA, Linear Attention, and Hybrid Models" title="Overview slides PDF">
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">ModelRunner and Forward Batches</span>
+                  <a class="toc-slide-link" href="chapter-overview-slides/chapter-12-modelrunner-and-forward-batches.pdf" aria-label="Open Chapter 12 overview slides PDF: ModelRunner and Forward Batches" title="Overview slides PDF">
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">Model Architecture Dispatch and Loader Boundaries</span>
+                  <a class="toc-slide-link" href="chapter-overview-slides/chapter-13-model-architecture-dispatch-and-loader-boundaries.pdf" aria-label="Open Chapter 13 overview slides PDF: Model Architecture Dispatch and Loader Boundaries" title="Overview slides PDF">
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">Sampling and Logits Processing</span>
+                  <a class="toc-slide-link" href="chapter-overview-slides/chapter-14-sampling-and-logits-processing.pdf" aria-label="Open Chapter 14 overview slides PDF: Sampling and Logits Processing" title="Overview slides PDF">
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">Structured Outputs</span>
+                  <a class="toc-slide-link" href="chapter-overview-slides/chapter-15-structured-outputs.pdf" aria-label="Open Chapter 15 overview slides PDF: Structured Outputs" title="Overview slides PDF">
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">Reasoning and Tool-Call Parsing</span>
+                  <a class="toc-slide-link" href="chapter-overview-slides/chapter-16-reasoning-and-tool-call-parsing.pdf" aria-label="Open Chapter 16 overview slides PDF: Reasoning and Tool-Call Parsing" title="Overview slides PDF">
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">Speculative Decoding</span>
+                  <a class="toc-slide-link" href="chapter-overview-slides/chapter-17-speculative-decoding.pdf" aria-label="Open Chapter 17 overview slides PDF: Speculative Decoding" title="Overview slides PDF">
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">Diffusion Language Models and Blockwise Decoding</span>
+                  <a class="toc-slide-link" href="chapter-overview-slides/chapter-18-diffusion-language-models-and-blockwise-decoding.pdf" aria-label="Open Chapter 18 overview slides PDF: Diffusion Language Models and Blockwise Decoding" title="Overview slides PDF">
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
             </ol>
           </div>
           <div class="toc-volume">
             <h3>Volume II</h3>
-            <p class="toc-bridge">Volume II Preliminaries</p>
+            <div class="toc-bridge">
+              <div class="toc-entry">
+                <span class="toc-title">Volume II Preliminaries</span>
+                <a class="toc-slide-link" href="chapter-overview-slides/volume-ii-preliminaries.pdf" aria-label="Open Volume II Preliminaries overview slides PDF" title="Overview slides PDF">
+                  <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                </a>
+              </div>
+            </div>
             <ol class="toc-list" style="--chapter-start: 18">
-              <li>Quantized Serving Kernels and Dispatch</li>
-              <li>LoRA as Runtime Low-Rank Updates</li>
-              <li>Mixture-of-Experts</li>
-              <li>Parallelism Taxonomy</li>
-              <li>Collectives and Communication Kernels</li>
-              <li>Prefill/Decode Disaggregation</li>
-              <li>Routing and Load Balancing</li>
-              <li>Kernel Design in SGLang</li>
-              <li>Attention and GEMM Kernels</li>
-              <li>CUDA Graphs, Piecewise Graphs, and Compilation</li>
-              <li>Hardware Backends</li>
-              <li>Multimodal Transformer Serving</li>
-              <li>Diffusion Inference Runtime</li>
-              <li>Diffusion Acceleration</li>
-              <li>Benchmarking Methodology</li>
-              <li>Correctness Testing for Systems Algorithms</li>
-              <li>Extending SGLang Technically</li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">Quantized Serving Kernels and Dispatch</span>
+                  <a class="toc-slide-link" href="chapter-overview-slides/chapter-19-quantized-serving-kernels-and-dispatch.pdf" aria-label="Open Chapter 19 overview slides PDF: Quantized Serving Kernels and Dispatch" title="Overview slides PDF">
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">LoRA as Runtime Low-Rank Updates</span>
+                  <a class="toc-slide-link" href="chapter-overview-slides/chapter-20-lora-as-runtime-low-rank-updates.pdf" aria-label="Open Chapter 20 overview slides PDF: LoRA as Runtime Low-Rank Updates" title="Overview slides PDF">
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">Mixture-of-Experts</span>
+                  <a class="toc-slide-link" href="chapter-overview-slides/chapter-21-mixture-of-experts.pdf" aria-label="Open Chapter 21 overview slides PDF: Mixture-of-Experts" title="Overview slides PDF">
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">Parallelism Taxonomy</span>
+                  <a class="toc-slide-link" href="chapter-overview-slides/chapter-22-parallelism-taxonomy.pdf" aria-label="Open Chapter 22 overview slides PDF: Parallelism Taxonomy" title="Overview slides PDF">
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">Collectives and Communication Kernels</span>
+                  <a class="toc-slide-link" href="chapter-overview-slides/chapter-23-collectives-and-communication-kernels.pdf" aria-label="Open Chapter 23 overview slides PDF: Collectives and Communication Kernels" title="Overview slides PDF">
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">Prefill/Decode Disaggregation</span>
+                  <a class="toc-slide-link" href="chapter-overview-slides/chapter-24-prefill-decode-disaggregation.pdf" aria-label="Open Chapter 24 overview slides PDF: Prefill/Decode Disaggregation" title="Overview slides PDF">
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">Routing and Load Balancing</span>
+                  <a class="toc-slide-link" href="chapter-overview-slides/chapter-25-routing-and-load-balancing.pdf" aria-label="Open Chapter 25 overview slides PDF: Routing and Load Balancing" title="Overview slides PDF">
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">Kernel Design in SGLang</span>
+                  <a class="toc-slide-link" href="chapter-overview-slides/chapter-26-kernel-design-in-sglang.pdf" aria-label="Open Chapter 26 overview slides PDF: Kernel Design in SGLang" title="Overview slides PDF">
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">Attention and GEMM Kernels</span>
+                  <a class="toc-slide-link" href="chapter-overview-slides/chapter-27-attention-and-gemm-kernels.pdf" aria-label="Open Chapter 27 overview slides PDF: Attention and GEMM Kernels" title="Overview slides PDF">
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">CUDA Graphs, Piecewise Graphs, and Compilation</span>
+                  <a class="toc-slide-link" href="chapter-overview-slides/chapter-28-cuda-graphs-piecewise-graphs-and-compilation.pdf" aria-label="Open Chapter 28 overview slides PDF: CUDA Graphs, Piecewise Graphs, and Compilation" title="Overview slides PDF">
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">Hardware Backends</span>
+                  <a class="toc-slide-link" href="chapter-overview-slides/chapter-29-hardware-backends.pdf" aria-label="Open Chapter 29 overview slides PDF: Hardware Backends" title="Overview slides PDF">
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">Multimodal Transformer Serving</span>
+                  <a class="toc-slide-link" href="chapter-overview-slides/chapter-30-multimodal-transformer-serving.pdf" aria-label="Open Chapter 30 overview slides PDF: Multimodal Transformer Serving" title="Overview slides PDF">
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">Diffusion Inference Runtime</span>
+                  <a class="toc-slide-link" href="chapter-overview-slides/chapter-31-diffusion-inference-runtime.pdf" aria-label="Open Chapter 31 overview slides PDF: Diffusion Inference Runtime" title="Overview slides PDF">
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">Diffusion Acceleration</span>
+                  <a class="toc-slide-link" href="chapter-overview-slides/chapter-32-diffusion-acceleration.pdf" aria-label="Open Chapter 32 overview slides PDF: Diffusion Acceleration" title="Overview slides PDF">
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">Benchmarking Methodology</span>
+                  <a class="toc-slide-link" href="chapter-overview-slides/chapter-33-benchmarking-methodology.pdf" aria-label="Open Chapter 33 overview slides PDF: Benchmarking Methodology" title="Overview slides PDF">
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">Correctness Testing for Systems Algorithms</span>
+                  <a class="toc-slide-link" href="chapter-overview-slides/chapter-34-correctness-testing-for-systems-algorithms.pdf" aria-label="Open Chapter 34 overview slides PDF: Correctness Testing for Systems Algorithms" title="Overview slides PDF">
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">Extending SGLang Technically</span>
+                  <a class="toc-slide-link" href="chapter-overview-slides/chapter-35-extending-sglang-technically.pdf" aria-label="Open Chapter 35 overview slides PDF: Extending SGLang Technically" title="Overview slides PDF">
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
             </ol>
           </div>
         </div>
