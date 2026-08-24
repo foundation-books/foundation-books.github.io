@@ -5,11 +5,11 @@ Static GitHub Pages site for the public `foundation-books.github.io` page.
 The generated site publishes only public artifacts:
 
 - `index.html` and `styles.css`
-- `mathematics-in-deep-learning/index.html`
-- `mathematics-in-deep-learning/sample-chapters/*.pdf`
-- `applied-deep-learning/index.html`
-- `applied-deep-learning/sample-chapters/*.pdf`
-- the textbook cover image
+- the four public book pages under `deep-dive-into-deepseek/`,
+  `deep-dive-into-sglang/`, `mathematics-in-deep-learning/`, and
+  `applied-deep-learning/`
+- public sample chapters and chapter overview slides
+- responsive textbook cover and Foundation Books logo assets
 - links to Amazon and the public companion code repository
 
 The sample chapter PDFs are released under the

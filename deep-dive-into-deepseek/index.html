@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Deep Dive into DeepSeek | Foundation Books</title>
+    <meta
+      name="description"
+      content="Book page for Deep Dive into DeepSeek by Yin Yang, with Volume I and Volume II editions, sample chapters, a table of contents, Amazon links, and companion code."
+    >
+    <meta property="og:title" content="Deep Dive into DeepSeek">
+    <meta
+      property="og:description"
+      content="A Foundation Books two-volume technical guide to DeepSeek models, training, reasoning, serving systems, distributed execution, kernels, and correctness."
+    >
+    <meta property="og:type" content="book">
+    <meta property="og:url" content="https://foundation-books.github.io/deep-dive-into-deepseek/">
+    <meta
+      property="og:image"
+      content="https://foundation-books.github.io/assets/deep-dive-into-deepseek-volume-1-cover-1040.jpg"
+    >
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Deep Dive into DeepSeek">
+    <meta
+      name="twitter:description"
+      content="A two-volume technical guide to DeepSeek models and the systems that run them."
+    >
+    <meta
+      name="twitter:image"
+      content="https://foundation-books.github.io/assets/deep-dive-into-deepseek-volume-1-cover-1040.jpg"
+    >
+    <link rel="icon" type="image/png" sizes="96x96" href="../assets/foundation-books-logo-96.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/foundation-books-logo-180.png">
+    <link rel="stylesheet" href="../styles.css?v=site-20260824-1">
+  </head>
+  <body class="deepseek-site-theme">
+    <main class="page book-page two-volume-page">
+      <nav class="site-nav" aria-label="Site">
+        <a class="site-brand" href="../">
+          <img
+            class="site-brand-logo"
+            src="../assets/foundation-books-logo-68.png"
+            srcset="
+              ../assets/foundation-books-logo-68.png 68w,
+              ../assets/foundation-books-logo-96.png 96w,
+              ../assets/foundation-books-logo-152.png 152w
+            "
+            sizes="34px"
+            alt=""
+            width="68"
+            height="68"
+            decoding="async"
+          >
+          <span>Foundation Books</span>
+        </a>
+      </nav>
+
+      <section class="hero" aria-labelledby="title">
+        <div class="hero-copy">
+          <p class="publisher">Deep Dive into DeepSeek</p>
+          <h1 id="title">Deep Dive into DeepSeek</h1>
+          <p class="subtitle">
+            A two-volume technical guide to DeepSeek models and the systems
+            that run them - from DeepSeekMoE, MLA, V3, R1, V4, Coder, and Janus
+            to serving, FlashMLA, DeepGEMM, DeepEP, DualPipe, 3FS, numerical
+            correctness, and measured runtime evidence.
+          </p>
+          <div class="actions" aria-label="Primary links">
+            <a class="button primary" href="https://www.amazon.com/dp/B0HG7YQF7J">
+              Buy Volume I
+            </a>
+            <a class="button primary" href="https://www.amazon.com/dp/B0HG84KZBD">
+              Buy Volume II
+            </a>
+            <a
+              class="button github"
+              href="https://github.com/foundation-books/deep-dive-into-deepseek-code"
+            >
+              Companion Code
+            </a>
+          </div>
+        </div>
+        <figure class="cover-stack" aria-label="Deep Dive into DeepSeek book covers">
+          <picture>
+            <source
+              type="image/webp"
+              srcset="
+                ../assets/deep-dive-into-deepseek-volume-1-cover-360.webp 360w,
+                ../assets/deep-dive-into-deepseek-volume-1-cover-540.webp 540w,
+                ../assets/deep-dive-into-deepseek-volume-1-cover-760.webp 760w,
+                ../assets/deep-dive-into-deepseek-volume-1-cover-1040.webp 1040w
+              "
+              sizes="(max-width: 460px) 180px, (max-width: 960px) 250px, 240px"
+            >
+            <img
+              src="../assets/deep-dive-into-deepseek-volume-1-cover-760.jpg"
+              srcset="
+                ../assets/deep-dive-into-deepseek-volume-1-cover-360.jpg 360w,
+                ../assets/deep-dive-into-deepseek-volume-1-cover-540.jpg 540w,
+                ../assets/deep-dive-into-deepseek-volume-1-cover-760.jpg 760w,
+                ../assets/deep-dive-into-deepseek-volume-1-cover-1040.jpg 1040w
+              "
+              sizes="(max-width: 460px) 180px, (max-width: 960px) 250px, 240px"
+              alt="Cover of Deep Dive into DeepSeek Volume I"
+              width="760"
+              height="984"
+              decoding="async"
+              fetchpriority="high"
+            >
+          </picture>
+          <picture>
+            <source
+              type="image/webp"
+              srcset="
+                ../assets/deep-dive-into-deepseek-volume-2-cover-360.webp 360w,
+                ../assets/deep-dive-into-deepseek-volume-2-cover-540.webp 540w,
+                ../assets/deep-dive-into-deepseek-volume-2-cover-760.webp 760w,
+                ../assets/deep-dive-into-deepseek-volume-2-cover-1040.webp 1040w
+              "
+              sizes="(max-width: 460px) 180px, (max-width: 960px) 250px, 240px"
+            >
+            <img
+              src="../assets/deep-dive-into-deepseek-volume-2-cover-760.jpg"
+              srcset="
+                ../assets/deep-dive-into-deepseek-volume-2-cover-360.jpg 360w,
+                ../assets/deep-dive-into-deepseek-volume-2-cover-540.jpg 540w,
+                ../assets/deep-dive-into-deepseek-volume-2-cover-760.jpg 760w,
+                ../assets/deep-dive-into-deepseek-volume-2-cover-1040.jpg 1040w
+              "
+              sizes="(max-width: 460px) 180px, (max-width: 960px) 250px, 240px"
+              alt="Cover of Deep Dive into DeepSeek Volume II"
+              width="760"
+              height="984"
+              decoding="async"
+              fetchpriority="high"
+            >
+          </picture>
+        </figure>
+      </section>
+
+      <section class="volume-grid" aria-label="Book editions">
+        <article class="volume-card">
+          <p class="volume-label">Volume I</p>
+          <h2 class="volume-title">Models, Training, and Reasoning</h2>
+          <p class="volume-description">
+            Volume I builds from request and cost foundations into DeepSeekMoE,
+            MLA, V3, R1, V4, Coder, multimodal systems, OCR, and the evidence
+            needed to compare architecture and training claims responsibly.
+          </p>
+          <div class="volume-links" aria-label="Volume I purchase links">
+            <a class="button primary" href="https://www.amazon.com/dp/B0HG7YQF7J">
+              Paperback
+            </a>
+            <a class="button secondary" href="https://www.amazon.com/dp/B0HGBDJZGN">
+              Hardcover
+            </a>
+            <a class="button kindle" href="https://www.amazon.com/dp/B0HG7XDF5N">
+              Kindle
+            </a>
+          </div>
+        </article>
+        <article class="volume-card">
+          <p class="volume-label">Volume II</p>
+          <h2 class="volume-title">Systems, Kernels, and Integration</h2>
+          <p class="volume-description">
+            Volume II follows requests through serving runtimes, accelerator
+            kernels, expert-parallel communication, pipeline and storage
+            systems, quantization, long context, replay, and measured execution.
+          </p>
+          <div class="volume-links" aria-label="Volume II purchase links">
+            <a class="button primary" href="https://www.amazon.com/dp/B0HG84KZBD">
+              Paperback
+            </a>
+            <a class="button secondary" href="https://www.amazon.com/dp/B0HGBFM4RG">
+              Hardcover
+            </a>
+            <a class="button kindle" href="https://www.amazon.com/dp/B0HG81GMPK">
+              Kindle
+            </a>
+          </div>
+        </article>
+      </section>
+
+      <section class="samples" aria-labelledby="sample-chapters">
+        <div class="section-heading">
+          <p class="publisher">Public excerpts</p>
+          <h2 id="sample-chapters">Sample Chapters</h2>
+        </div>
+        <p class="license-note">
+          Sample chapters are released under the
+          <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a>
+          license.
+        </p>
+        <div class="sample-list">
+          <a
+            class="sample-card"
+            href="sample-chapters/deepseek-v4-architecture.pdf"
+          >
+            <span class="sample-meta">Volume I - Chapter 12 - 20 pages</span>
+            <span class="sample-title">DeepSeek-V4 Architecture</span>
+            <span class="sample-description">
+              V4-Pro and V4-Flash, token compression through CSA and HCA, mHC
+              residual mixing, Sinkhorn constraints, architecture interactions,
+              and open questions.
+            </span>
+            <span class="sample-action">Open PDF</span>
+          </a>
+          <a
+            class="sample-card"
+            href="sample-chapters/multi-head-latent-attention.pdf"
+          >
+            <span class="sample-meta">Volume I - Chapter 4 - 23 pages</span>
+            <span class="sample-title">Multi-Head Latent Attention</span>
+            <span class="sample-description">
+              MHA, MQA, and GQA baselines, latent KV state, projection paths,
+              the RoPE split, decode-time cache representation, and serving
+              tradeoffs.
+            </span>
+            <span class="sample-action">Open PDF</span>
+          </a>
+          <a class="sample-card" href="sample-chapters/deepseek-r1.pdf">
+            <span class="sample-meta">Volume I - Chapter 9 - 23 pages</span>
+            <span class="sample-title">DeepSeek-R1</span>
+            <span class="sample-description">
+              The staged R1 pipeline from cold start and reasoning-oriented RL
+              through rejection sampling, final RL, distillation, and evaluation.
+            </span>
+            <span class="sample-action">Open PDF</span>
+          </a>
+          <a
+            class="sample-card"
+            href="sample-chapters/deepgemm.pdf"
+          >
+            <span class="sample-meta">Volume II - Chapter 23 - 43 pages</span>
+            <span class="sample-title">DeepGEMM</span>
+            <span class="sample-description">
+              BF16 references, low-precision GEMM, scaling layouts, JIT
+              specialization, grouped GEMM, MQA and indexer kernels,
+              benchmarking, and reproducibility.
+            </span>
+            <span class="sample-action">Open PDF</span>
+          </a>
+          <a class="sample-card" href="sample-chapters/flashmla.pdf">
+            <span class="sample-meta">Volume II - Chapter 22 - 44 pages</span>
+            <span class="sample-title">FlashMLA</span>
+            <span class="sample-description">
+              Cache addressing, FP8 layouts, split-KV reduction, seesaw
+              scheduling, dense and sparse decode contracts, correctness, and
+              integration.
+            </span>
+            <span class="sample-action">Open PDF</span>
+          </a>
+          <a class="sample-card" href="sample-chapters/deepep.pdf">
+            <span class="sample-meta">Volume II - Chapter 26 - 51 pages</span>
+            <span class="sample-title">DeepEP</span>
+            <span class="sample-description">
+              Dispatch and combine invariants, buffer layouts, transport paths,
+              overlap, channel epochs, barriers, load skew, and route-shape
+              measurement.
+            </span>
+            <span class="sample-action">Open PDF</span>
+          </a>
+        </div>
+      </section>
+
+      <section class="contents" aria-labelledby="contents-title">
+        <div class="section-heading">
+          <p class="publisher">Book contents</p>
+          <h2 id="contents-title">Table of Contents</h2>
+        </div>
+        <div class="toc-grid">
+          <div class="toc-volume">
+            <h3>Volume I</h3>
+            <ol class="toc-list">
+              <li>DeepSeek Orientation: Requests, Execution, and Technology Lineage</li>
+              <li>Inference Cost and Measurement</li>
+              <li>DeepSeekMoE and Sparse Computation</li>
+              <li>Multi-Head Latent Attention</li>
+              <li>DeepSeek-V3 Architecture</li>
+              <li>DeepSeek-V3 Pretraining</li>
+            </ol>
+            <p class="toc-bridge">Reasoning RL Primer</p>
+            <ol class="toc-list" style="--chapter-start: 6">
+              <li>DeepSeek-V3 Post-Training</li>
+              <li>R1-Zero and Pure RL Reasoning</li>
+              <li>DeepSeek-R1</li>
+              <li>DeepSeek Math and Prover</li>
+              <li>DeepSeek-V3.2 and Sparse Long Context</li>
+              <li>DeepSeek-V4 Architecture</li>
+              <li>DeepSeek-V4 Training</li>
+              <li>DeepSeek-V4 Agent Interfaces and DeepSeek Harness</li>
+              <li>Engram and Conditional Memory</li>
+              <li>DeepSeek Coder</li>
+              <li>Multimodal Understanding and Generation: DeepSeek-VL and Janus</li>
+              <li>DeepSeek-OCR and Document Compression</li>
+            </ol>
+            <div class="toc-appendices">
+              <h4>Appendices</h4>
+              <ol class="toc-appendix-list">
+                <li>Evaluation Harnesses and Protocol Design</li>
+                <li>DeepSeek in the Broader Lineage</li>
+                <li>Source Records and Artifact Coordinates</li>
+              </ol>
+            </div>
+          </div>
+          <div class="toc-volume">
+            <h3>Volume II</h3>
+            <p class="toc-bridge">Volume II Quick Start</p>
+            <ol class="toc-list" style="--chapter-start: 18">
+              <li>Systems Foundations</li>
+              <li>Serving DeepSeek Models</li>
+              <li>DeepSeek-V4 Runtime and Speculative Decoding</li>
+              <li>FlashMLA</li>
+              <li>DeepGEMM</li>
+              <li>TileKernels and TileLang Kernel Surfaces</li>
+              <li>Parallelism Taxonomy for DeepSeek</li>
+              <li>DeepEP</li>
+              <li>Mega MoE: Fused Expert-Parallel Execution</li>
+              <li>EPLB</li>
+              <li>DualPipe</li>
+              <li>3FS</li>
+              <li>smallpond: Distributed Dataframes, Tasks, and Dataset Publication</li>
+              <li>Precision, Quantization, and Numerical Correctness</li>
+              <li>Long-Context Systems</li>
+              <li>System Correctness, Oracles, and Replay</li>
+              <li>NVIDIA Kernels and Runtime Measurements</li>
+            </ol>
+            <div class="toc-appendices">
+              <h4>Appendices</h4>
+              <ol class="toc-appendix-list">
+                <li>Source Records and Artifact Coordinates</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
