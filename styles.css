@@ -1950,6 +1950,27 @@ body.deepseek-site-theme .cover-stack::before {
   content: "";
 }
 
+body.deepseek-site-theme .cover-stack.hero-mockup {
+  display: block;
+  align-self: center;
+  padding: 0;
+  border: 0;
+  overflow: visible;
+  background: transparent;
+  box-shadow: none;
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+}
+
+body.deepseek-site-theme .cover-stack.hero-mockup::before {
+  content: none;
+}
+
+body.deepseek-site-theme .cover-stack.hero-mockup img {
+  width: 100%;
+  border-radius: 8px;
+}
+
 body.deepseek-site-theme .cover-stack picture {
   position: relative;
 }
