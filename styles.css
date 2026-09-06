@@ -2009,10 +2009,26 @@ body.deepseek-site-theme .license-note a {
   font-weight: 900;
 }
 
+body.deepseek-site-theme .toc-slide-link {
+  border-color: rgba(8, 121, 189, 0.3);
+  background: rgba(8, 121, 189, 0.07);
+}
+
+body.deepseek-site-theme .toc-slide-link:hover,
+body.deepseek-site-theme .toc-slide-link:focus-visible {
+  border-color: rgba(8, 121, 189, 0.52);
+  background: rgba(8, 121, 189, 0.13);
+}
+
+body.deepseek-site-theme .toc-slide-icon::before {
+  background: #f7fdff;
+}
+
 body.deepseek-site-theme .button:focus-visible,
 body.deepseek-site-theme .book-card-cover:focus-visible,
 body.deepseek-site-theme .book-card-title-link:focus-visible,
 body.deepseek-site-theme .sample-card:focus-visible,
+body.deepseek-site-theme .toc-slide-link:focus-visible,
 body.deepseek-site-theme .site-nav a:focus-visible {
   outline: 3px solid rgba(8, 121, 189, 0.3);
   outline-offset: 3px;
@@ -2021,6 +2037,7 @@ body.deepseek-site-theme .site-nav a:focus-visible {
 @media (prefers-reduced-motion: no-preference) {
   body.deepseek-site-theme .button,
   body.deepseek-site-theme .sample-card,
+  body.deepseek-site-theme .toc-slide-link,
   body.deepseek-site-theme .site-nav a {
     transition:
       border-color 160ms ease,
@@ -2034,6 +2051,8 @@ body.deepseek-site-theme .site-nav a:focus-visible {
   body.deepseek-site-theme .button:focus-visible,
   body.deepseek-site-theme .sample-card:hover,
   body.deepseek-site-theme .sample-card:focus-visible,
+  body.deepseek-site-theme .toc-slide-link:hover,
+  body.deepseek-site-theme .toc-slide-link:focus-visible,
   body.deepseek-site-theme .site-nav a:hover,
   body.deepseek-site-theme .site-nav a:focus-visible {
     transform: translateY(-1px);

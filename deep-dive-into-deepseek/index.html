@@ -6,12 +6,12 @@
     <title>Deep Dive into DeepSeek | Foundation Books</title>
     <meta
       name="description"
-      content="Book page for Deep Dive into DeepSeek by Yin Yang, with Volume I and Volume II editions, sample chapters, a table of contents, Amazon links, and companion code."
+      content="Book page for Deep Dive into DeepSeek by Yin Yang, with Volume I and Volume II editions, sample chapters, free chapter overview slides, a table of contents, Amazon links, and companion code."
     >
     <meta property="og:title" content="Deep Dive into DeepSeek">
     <meta
       property="og:description"
-      content="A Foundation Books two-volume technical guide to DeepSeek models, training, reasoning, serving systems, distributed execution, kernels, and correctness."
+      content="A Foundation Books two-volume technical guide with free chapter overview slides on DeepSeek models, training, reasoning, serving systems, distributed execution, kernels, and correctness."
     >
     <meta property="og:type" content="book">
     <meta property="og:url" content="https://foundation-books.github.io/deep-dive-into-deepseek/">
@@ -31,7 +31,7 @@
     >
     <link rel="icon" type="image/png" sizes="96x96" href="../assets/foundation-books-logo-96.png">
     <link rel="apple-touch-icon" sizes="180x180" href="../assets/foundation-books-logo-180.png">
-    <link rel="stylesheet" href="../styles.css?v=site-20260824-2">
+    <link rel="stylesheet" href="../styles.css?v=site-20260906-1">
   </head>
   <body class="deepseek-site-theme">
     <main class="page book-page two-volume-page">
@@ -361,62 +361,535 @@
           <p class="publisher">Book contents</p>
           <h2 id="contents-title">Table of Contents</h2>
         </div>
+        <p class="license-note">
+          Free chapter and appendix overview slides are released under the
+          <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a>
+          license.
+        </p>
         <div class="toc-grid">
           <div class="toc-volume">
             <h3>Volume I</h3>
             <ol class="toc-list">
-              <li>DeepSeek Orientation: Requests, Execution, and Technology Lineage</li>
-              <li>Inference Cost and Measurement</li>
-              <li>DeepSeekMoE and Sparse Computation</li>
-              <li>Multi-Head Latent Attention</li>
-              <li>DeepSeek-V3 Architecture</li>
-              <li>DeepSeek-V3 Pretraining</li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">DeepSeek Orientation: Requests, Execution, and Technology Lineage</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-01-deepseek-orientation-requests-execution-and-technology-lineage.pdf"
+                    aria-label="Open Chapter 1 overview slides PDF: DeepSeek Orientation: Requests, Execution, and Technology Lineage"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">Inference Cost and Measurement</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-02-inference-cost-and-measurement.pdf"
+                    aria-label="Open Chapter 2 overview slides PDF: Inference Cost and Measurement"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">DeepSeekMoE and Sparse Computation</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-03-deepseekmoe-and-sparse-computation.pdf"
+                    aria-label="Open Chapter 3 overview slides PDF: DeepSeekMoE and Sparse Computation"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">Multi-Head Latent Attention</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-04-multi-head-latent-attention.pdf"
+                    aria-label="Open Chapter 4 overview slides PDF: Multi-Head Latent Attention"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">DeepSeek-V3 Architecture</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-05-deepseek-v3-architecture.pdf"
+                    aria-label="Open Chapter 5 overview slides PDF: DeepSeek-V3 Architecture"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">DeepSeek-V3 Pretraining</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-06-deepseek-v3-pretraining.pdf"
+                    aria-label="Open Chapter 6 overview slides PDF: DeepSeek-V3 Pretraining"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
             </ol>
-            <p class="toc-bridge">Reasoning RL Primer</p>
+            <div class="toc-bridge">
+              <div class="toc-entry">
+                <span class="toc-title">Reasoning RL Primer</span>
+                <a
+                  class="toc-slide-link"
+                  href="chapter-overview-slides/reasoning-rl-primer.pdf"
+                  aria-label="Open Reasoning RL Primer overview slides PDF"
+                  title="Overview slides PDF"
+                >
+                  <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                </a>
+              </div>
+            </div>
             <ol class="toc-list" style="--chapter-start: 6">
-              <li>DeepSeek-V3 Post-Training</li>
-              <li>R1-Zero and Pure RL Reasoning</li>
-              <li>DeepSeek-R1</li>
-              <li>DeepSeek Math and Prover</li>
-              <li>DeepSeek-V3.2 and Sparse Long Context</li>
-              <li>DeepSeek-V4 Architecture</li>
-              <li>DeepSeek-V4 Training</li>
-              <li>DeepSeek-V4 Agent Interfaces and DeepSeek Harness</li>
-              <li>Engram and Conditional Memory</li>
-              <li>DeepSeek Coder</li>
-              <li>Multimodal Understanding and Generation: DeepSeek-VL and Janus</li>
-              <li>DeepSeek-OCR and Document Compression</li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">DeepSeek-V3 Post-Training</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-07-deepseek-v3-post-training.pdf"
+                    aria-label="Open Chapter 7 overview slides PDF: DeepSeek-V3 Post-Training"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">R1-Zero and Pure RL Reasoning</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-08-r1-zero-and-pure-rl-reasoning.pdf"
+                    aria-label="Open Chapter 8 overview slides PDF: R1-Zero and Pure RL Reasoning"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">DeepSeek-R1</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-09-deepseek-r1.pdf"
+                    aria-label="Open Chapter 9 overview slides PDF: DeepSeek-R1"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">DeepSeek Math and Prover</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-10-deepseek-math-and-prover.pdf"
+                    aria-label="Open Chapter 10 overview slides PDF: DeepSeek Math and Prover"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">DeepSeek-V3.2 and Sparse Long Context</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-11-deepseek-v3-2-and-sparse-long-context.pdf"
+                    aria-label="Open Chapter 11 overview slides PDF: DeepSeek-V3.2 and Sparse Long Context"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">DeepSeek-V4 Architecture</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-12-deepseek-v4-architecture.pdf"
+                    aria-label="Open Chapter 12 overview slides PDF: DeepSeek-V4 Architecture"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">DeepSeek-V4 Training</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-13-deepseek-v4-training.pdf"
+                    aria-label="Open Chapter 13 overview slides PDF: DeepSeek-V4 Training"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">DeepSeek-V4 Agent Interfaces and DeepSeek Harness</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-14-deepseek-v4-agent-interfaces-and-deepseek-harness.pdf"
+                    aria-label="Open Chapter 14 overview slides PDF: DeepSeek-V4 Agent Interfaces and DeepSeek Harness"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">Engram and Conditional Memory</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-15-engram-and-conditional-memory.pdf"
+                    aria-label="Open Chapter 15 overview slides PDF: Engram and Conditional Memory"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">DeepSeek Coder</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-16-deepseek-coder.pdf"
+                    aria-label="Open Chapter 16 overview slides PDF: DeepSeek Coder"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">Multimodal Understanding and Generation: DeepSeek-VL and Janus</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-17-multimodal-understanding-and-generation-deepseek-vl-and-janus.pdf"
+                    aria-label="Open Chapter 17 overview slides PDF: Multimodal Understanding and Generation: DeepSeek-VL and Janus"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">DeepSeek-OCR and Document Compression</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-18-deepseek-ocr-and-document-compression.pdf"
+                    aria-label="Open Chapter 18 overview slides PDF: DeepSeek-OCR and Document Compression"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
             </ol>
             <div class="toc-appendices">
               <h4>Appendices</h4>
               <ol class="toc-appendix-list">
-                <li>Evaluation Harnesses and Protocol Design</li>
-                <li>DeepSeek in the Broader Lineage</li>
+                <li>
+                  <div class="toc-entry">
+                    <span class="toc-title">Evaluation Harnesses and Protocol Design</span>
+                    <a
+                      class="toc-slide-link"
+                      href="chapter-overview-slides/appendix-a-evaluation-harnesses-and-protocol-design.pdf"
+                      aria-label="Open Appendix A overview slides PDF: Evaluation Harnesses and Protocol Design"
+                      title="Overview slides PDF"
+                    >
+                      <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                    </a>
+                  </div>
+                </li>
+                <li>
+                  <div class="toc-entry">
+                    <span class="toc-title">DeepSeek in the Broader Lineage</span>
+                    <a
+                      class="toc-slide-link"
+                      href="chapter-overview-slides/appendix-b-deepseek-in-the-broader-lineage.pdf"
+                      aria-label="Open Appendix B overview slides PDF: DeepSeek in the Broader Lineage"
+                      title="Overview slides PDF"
+                    >
+                      <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                    </a>
+                  </div>
+                </li>
                 <li>Source Records and Artifact Coordinates</li>
               </ol>
             </div>
           </div>
           <div class="toc-volume">
             <h3>Volume II</h3>
-            <p class="toc-bridge">Volume II Quick Start</p>
+            <div class="toc-bridge">
+              <div class="toc-entry">
+                <span class="toc-title">Volume II Quick Start</span>
+                <a
+                  class="toc-slide-link"
+                  href="chapter-overview-slides/volume-ii-quick-start.pdf"
+                  aria-label="Open Volume II Quick Start overview slides PDF"
+                  title="Overview slides PDF"
+                >
+                  <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                </a>
+              </div>
+            </div>
             <ol class="toc-list" style="--chapter-start: 18">
-              <li>Systems Foundations</li>
-              <li>Serving DeepSeek Models</li>
-              <li>DeepSeek-V4 Runtime and Speculative Decoding</li>
-              <li>FlashMLA</li>
-              <li>DeepGEMM</li>
-              <li>TileKernels and TileLang Kernel Surfaces</li>
-              <li>Parallelism Taxonomy for DeepSeek</li>
-              <li>DeepEP</li>
-              <li>Mega MoE: Fused Expert-Parallel Execution</li>
-              <li>EPLB</li>
-              <li>DualPipe</li>
-              <li>3FS</li>
-              <li>smallpond: Distributed Dataframes, Tasks, and Dataset Publication</li>
-              <li>Precision, Quantization, and Numerical Correctness</li>
-              <li>Long-Context Systems</li>
-              <li>System Correctness, Oracles, and Replay</li>
-              <li>NVIDIA Kernels and Runtime Measurements</li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">Systems Foundations</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-19-systems-foundations.pdf"
+                    aria-label="Open Chapter 19 overview slides PDF: Systems Foundations"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">Serving DeepSeek Models</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-20-serving-deepseek-models.pdf"
+                    aria-label="Open Chapter 20 overview slides PDF: Serving DeepSeek Models"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">DeepSeek-V4 Runtime and Speculative Decoding</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-21-deepseek-v4-runtime-and-speculative-decoding.pdf"
+                    aria-label="Open Chapter 21 overview slides PDF: DeepSeek-V4 Runtime and Speculative Decoding"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">FlashMLA</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-22-flashmla.pdf"
+                    aria-label="Open Chapter 22 overview slides PDF: FlashMLA"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">DeepGEMM</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-23-deepgemm.pdf"
+                    aria-label="Open Chapter 23 overview slides PDF: DeepGEMM"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">TileKernels and TileLang Kernel Surfaces</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-24-tilekernels-and-tilelang-kernel-surfaces.pdf"
+                    aria-label="Open Chapter 24 overview slides PDF: TileKernels and TileLang Kernel Surfaces"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">Parallelism Taxonomy for DeepSeek</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-25-parallelism-taxonomy-for-deepseek.pdf"
+                    aria-label="Open Chapter 25 overview slides PDF: Parallelism Taxonomy for DeepSeek"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">DeepEP</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-26-deepep.pdf"
+                    aria-label="Open Chapter 26 overview slides PDF: DeepEP"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">Mega MoE: Fused Expert-Parallel Execution</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-27-mega-moe-fused-expert-parallel-execution.pdf"
+                    aria-label="Open Chapter 27 overview slides PDF: Mega MoE: Fused Expert-Parallel Execution"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">EPLB</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-28-eplb.pdf"
+                    aria-label="Open Chapter 28 overview slides PDF: EPLB"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">DualPipe</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-29-dualpipe.pdf"
+                    aria-label="Open Chapter 29 overview slides PDF: DualPipe"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">3FS</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-30-3fs.pdf"
+                    aria-label="Open Chapter 30 overview slides PDF: 3FS"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">smallpond: Distributed Dataframes, Tasks, and Dataset Publication</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-31-smallpond-distributed-dataframes-tasks-and-dataset-publication.pdf"
+                    aria-label="Open Chapter 31 overview slides PDF: smallpond: Distributed Dataframes, Tasks, and Dataset Publication"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">Precision, Quantization, and Numerical Correctness</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-32-precision-quantization-and-numerical-correctness.pdf"
+                    aria-label="Open Chapter 32 overview slides PDF: Precision, Quantization, and Numerical Correctness"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">Long-Context Systems</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-33-long-context-systems.pdf"
+                    aria-label="Open Chapter 33 overview slides PDF: Long-Context Systems"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">System Correctness, Oracles, and Replay</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-34-system-correctness-oracles-and-replay.pdf"
+                    aria-label="Open Chapter 34 overview slides PDF: System Correctness, Oracles, and Replay"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">NVIDIA Kernels and Runtime Measurements</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-35-nvidia-kernels-and-runtime-measurements.pdf"
+                    aria-label="Open Chapter 35 overview slides PDF: NVIDIA Kernels and Runtime Measurements"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
             </ol>
             <div class="toc-appendices">
               <h4>Appendices</h4>
