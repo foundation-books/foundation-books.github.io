@@ -593,6 +593,40 @@ h2 {
   max-width: none;
 }
 
+.book-card.three-volume {
+  grid-template-columns: minmax(300px, 420px) minmax(0, 1fr);
+}
+
+.three-volume .book-card-covers {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+
+body.kimi-site-theme {
+  --accent: #385592;
+  --accent-strong: #243963;
+  --gold: #806023;
+  background:
+    linear-gradient(125deg, rgba(91, 61, 145, 0.08), transparent 42%),
+    linear-gradient(245deg, rgba(42, 136, 152, 0.1), transparent 44%),
+    var(--paper);
+}
+
+.three-volume-page .hero {
+  grid-template-columns: minmax(0, 1fr) minmax(340px, 540px);
+}
+
+.three-volume-page .cover-stack {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: clamp(10px, 1.5vw, 18px);
+  max-width: 540px;
+}
+
+.three-volume-page .volume-grid,
+.three-volume-page .toc-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
 .two-volume-page .hero {
   grid-template-columns: minmax(0, 1fr) minmax(300px, 520px);
 }
@@ -775,6 +809,10 @@ h2 {
   .two-volume-page .cover-stack {
     max-width: 560px;
   }
+
+  .three-volume-page .hero {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 820px) {
@@ -784,7 +822,10 @@ h2 {
 
   .book-card,
   .book-card.two-volume,
+  .book-card.three-volume,
   .volume-grid,
+  .three-volume-page .volume-grid,
+  .three-volume-page .toc-grid,
   .toc-grid {
     grid-template-columns: 1fr;
     align-items: start;
@@ -800,6 +841,10 @@ h2 {
 
   .book-card-covers img {
     max-width: none;
+  }
+
+  .three-volume .book-card-covers {
+    max-width: 420px;
   }
 
   .hero {
@@ -847,7 +892,8 @@ h2 {
 
   .actions,
   .volume-links,
-  .book-card.two-volume .book-card-actions {
+  .book-card.two-volume .book-card-actions,
+  .book-card.three-volume .book-card-actions {
     display: grid;
     margin-top: 22px;
   }
@@ -870,6 +916,11 @@ h2 {
 
   .book-card-covers img {
     max-width: none;
+  }
+
+  .three-volume .book-card-covers {
+    max-width: 320px;
+    gap: 8px;
   }
 
   .facts {

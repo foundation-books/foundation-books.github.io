@@ -5,7 +5,7 @@ Static GitHub Pages site for the public `foundation-books.github.io` page.
 The generated site publishes only public artifacts:
 
 - `index.html` and `styles.css`
-- the four public book pages under `deep-dive-into-deepseek/`,
+- the five public book pages under `deep-dive-into-kimi/`, `deep-dive-into-deepseek/`,
   `deep-dive-into-sglang/`, `mathematics-in-deep-learning/`, and
   `applied-deep-learning/`
 - public sample chapters and chapter overview slides
