@@ -6,12 +6,12 @@
     <title>Deep Dive into Kimi K3 | Foundation Books</title>
     <meta
       name="description"
-      content="Deep Dive into Kimi K3 by Yin Yang: three volumes on architecture and pretraining, post-training and agent intelligence, and systems and deployment. Browse all 46 chapters, Amazon editions, and companion code."
+      content="Deep Dive into Kimi K3 by Yin Yang: three volumes on architecture and pretraining, post-training and agent intelligence, and systems and deployment. Browse all 46 chapters, free chapter overview slides, Amazon editions, and companion code."
     >
     <meta property="og:title" content="Deep Dive into Kimi K3">
     <meta
       property="og:description"
-      content="A three-volume technical guide to Kimi K3 architecture, learning, agents, and the systems that run them. By Yin Yang, Foundation Books."
+      content="A three-volume technical guide with free chapter overview slides on Kimi K3 architecture, learning, agents, and the systems that run them. By Yin Yang, Foundation Books."
     >
     <meta property="og:type" content="book">
     <meta property="og:url" content="https://foundation-books.github.io/deep-dive-into-kimi/">
@@ -23,7 +23,7 @@
     <link rel="canonical" href="https://foundation-books.github.io/deep-dive-into-kimi/">
     <link rel="icon" type="image/png" sizes="96x96" href="../assets/foundation-books-logo-96.png">
     <link rel="apple-touch-icon" sizes="180x180" href="../assets/foundation-books-logo-180.png">
-    <link rel="stylesheet" href="../styles.css?v=site-20261013-1">
+    <link rel="stylesheet" href="../styles.css?v=site-20261016-1">
   </head>
   <body class="kimi-site-theme">
     <main class="page book-page three-volume-page">
@@ -60,6 +60,7 @@
           </p>
           <div class="actions" aria-label="Primary links">
             <a class="button primary" href="#editions">Explore the Editions</a>
+            <a class="button secondary" href="#contents-title">Chapter Slides</a>
             <a class="button github" href="https://github.com/foundation-books/deep-dive-into-kimi-code">
               Companion Code
             </a>
@@ -218,66 +219,623 @@
           <p class="publisher">Book contents</p>
           <h2 id="contents-title">Table of Contents</h2>
         </div>
+        <p class="license-note">
+          Free chapter overview slides are released under the
+          <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a>
+          license. Open the PDF beside each chapter title.
+        </p>
         <div class="toc-grid">
           <div class="toc-volume">
             <h3>Volume I</h3>
             <ol class="toc-list">
-              <li><span class="toc-title">Foundations: The Transformer That Kimi Builds On</span></li>
-              <li><span class="toc-title">Computational Anatomy of Kimi K3</span></li>
-              <li><span class="toc-title">Sparse MoE from K2 to K3</span></li>
-              <li><span class="toc-title">Kimi Delta Attention</span></li>
-              <li><span class="toc-title">Hybrid Attention in Kimi K3</span></li>
-              <li><span class="toc-title">Gated Multi-Head Latent Attention</span></li>
-              <li><span class="toc-title">Attention Residuals</span></li>
-              <li><span class="toc-title">Stable LatentMoE</span></li>
-              <li><span class="toc-title">MoonViT and Native Multimodality</span></li>
-              <li><span class="toc-title">The Integrated K3 Transformer</span></li>
-              <li><span class="toc-title">Advanced Reading: MoBA and Learned Block-Sparse Attention</span></li>
-              <li><span class="toc-title">Scaling Muon for LLM Training</span></li>
-              <li><span class="toc-title">MuonClip and Training Stability</span></li>
-              <li><span class="toc-title">Stable Sparse Pretraining</span></li>
-              <li><span class="toc-title">Long-Context Pretraining</span></li>
-              <li><span class="toc-title">Native Multimodal Pretraining</span></li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">Foundations: The Transformer That Kimi Builds On</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-01-foundations-the-transformer-that-kimi-builds-on.pdf"
+                    aria-label="Open Chapter 1 overview slides PDF: Foundations: The Transformer That Kimi Builds On"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">Computational Anatomy of Kimi K3</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-02-computational-anatomy-of-kimi-k3.pdf"
+                    aria-label="Open Chapter 2 overview slides PDF: Computational Anatomy of Kimi K3"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">Sparse MoE from K2 to K3</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-03-sparse-moe-from-k2-to-k3.pdf"
+                    aria-label="Open Chapter 3 overview slides PDF: Sparse MoE from K2 to K3"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">Kimi Delta Attention</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-04-kimi-delta-attention.pdf"
+                    aria-label="Open Chapter 4 overview slides PDF: Kimi Delta Attention"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">Hybrid Attention in Kimi K3</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-05-hybrid-attention-in-kimi-k3.pdf"
+                    aria-label="Open Chapter 5 overview slides PDF: Hybrid Attention in Kimi K3"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">Gated Multi-Head Latent Attention</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-06-gated-multi-head-latent-attention.pdf"
+                    aria-label="Open Chapter 6 overview slides PDF: Gated Multi-Head Latent Attention"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">Attention Residuals</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-07-attention-residuals.pdf"
+                    aria-label="Open Chapter 7 overview slides PDF: Attention Residuals"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">Stable LatentMoE</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-08-stable-latentmoe.pdf"
+                    aria-label="Open Chapter 8 overview slides PDF: Stable LatentMoE"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">MoonViT and Native Multimodality</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-09-moonvit-and-native-multimodality.pdf"
+                    aria-label="Open Chapter 9 overview slides PDF: MoonViT and Native Multimodality"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">The Integrated K3 Transformer</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-10-the-integrated-k3-transformer.pdf"
+                    aria-label="Open Chapter 10 overview slides PDF: The Integrated K3 Transformer"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">Advanced Reading: MoBA and Learned Block-Sparse Attention</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-11-advanced-reading-moba-and-learned-block-sparse-attention.pdf"
+                    aria-label="Open Chapter 11 overview slides PDF: Advanced Reading: MoBA and Learned Block-Sparse Attention"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">Scaling Muon for LLM Training</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-12-scaling-muon-for-llm-training.pdf"
+                    aria-label="Open Chapter 12 overview slides PDF: Scaling Muon for LLM Training"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">MuonClip and Training Stability</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-13-muonclip-and-training-stability.pdf"
+                    aria-label="Open Chapter 13 overview slides PDF: MuonClip and Training Stability"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">Stable Sparse Pretraining</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-14-stable-sparse-pretraining.pdf"
+                    aria-label="Open Chapter 14 overview slides PDF: Stable Sparse Pretraining"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">Long-Context Pretraining</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-15-long-context-pretraining.pdf"
+                    aria-label="Open Chapter 15 overview slides PDF: Long-Context Pretraining"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">Native Multimodal Pretraining</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-16-native-multimodal-pretraining.pdf"
+                    aria-label="Open Chapter 16 overview slides PDF: Native Multimodal Pretraining"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
             </ol>
           </div>
           <div class="toc-volume">
             <h3>Volume II</h3>
             <ol class="toc-list" start="17" style="--chapter-start: 16">
-              <li><span class="toc-title">Supervised Cold Start for Agentic RL</span></li>
-              <li><span class="toc-title">Reinforcement Learning Foundations: From Token Prediction to Outcome-Driven Learning</span></li>
-              <li><span class="toc-title">Long-CoT Reinforcement Learning and Localized Policy Optimization</span></li>
-              <li><span class="toc-title">Sampling, Curricula, and Partial Rollouts</span></li>
-              <li><span class="toc-title">Multi-Domain and Reasoning-Effort Reinforcement Learning</span></li>
-              <li><span class="toc-title">Rewards, Verifiers, and Agentic Generative Reward Models</span></li>
-              <li><span class="toc-title">Capability Consolidation and Deployment-Aware Post-Training</span></li>
-              <li><span class="toc-title">Unified Agentic Environments and Task Synthesis</span></li>
-              <li><span class="toc-title">Visual and Multimodal Agent Learning</span></li>
-              <li><span class="toc-title">Parallel-Agent Reinforcement Learning and Agent Swarms</span></li>
-              <li><span class="toc-title">Structured Generation, XTML, and Walle</span></li>
-              <li><span class="toc-title">Tool Execution, Agent State, and Durable Context</span></li>
-              <li><span class="toc-title">Coding Agents: Training and Execution</span></li>
-              <li><span class="toc-title">Case Study: Kernel Optimization as a K3 Reinforcement-Learning Domain</span></li>
-              <li><span class="toc-title">Agent Evaluation, Correctness, and Safety</span></li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">Supervised Cold Start for Agentic RL</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-17-supervised-cold-start-for-agentic-rl.pdf"
+                    aria-label="Open Chapter 17 overview slides PDF: Supervised Cold Start for Agentic RL"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">Reinforcement Learning Foundations: From Token Prediction to Outcome-Driven Learning</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-18-reinforcement-learning-foundations-from-token-prediction-to-outcome-driven-learning.pdf"
+                    aria-label="Open Chapter 18 overview slides PDF: Reinforcement Learning Foundations: From Token Prediction to Outcome-Driven Learning"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">Long-CoT Reinforcement Learning and Localized Policy Optimization</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-19-long-cot-reinforcement-learning-and-localized-policy-optimization.pdf"
+                    aria-label="Open Chapter 19 overview slides PDF: Long-CoT Reinforcement Learning and Localized Policy Optimization"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">Sampling, Curricula, and Partial Rollouts</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-20-sampling-curricula-and-partial-rollouts.pdf"
+                    aria-label="Open Chapter 20 overview slides PDF: Sampling, Curricula, and Partial Rollouts"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">Multi-Domain and Reasoning-Effort Reinforcement Learning</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-21-multi-domain-and-reasoning-effort-reinforcement-learning.pdf"
+                    aria-label="Open Chapter 21 overview slides PDF: Multi-Domain and Reasoning-Effort Reinforcement Learning"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">Rewards, Verifiers, and Agentic Generative Reward Models</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-22-rewards-verifiers-and-agentic-generative-reward-models.pdf"
+                    aria-label="Open Chapter 22 overview slides PDF: Rewards, Verifiers, and Agentic Generative Reward Models"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">Capability Consolidation and Deployment-Aware Post-Training</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-23-capability-consolidation-and-deployment-aware-post-training.pdf"
+                    aria-label="Open Chapter 23 overview slides PDF: Capability Consolidation and Deployment-Aware Post-Training"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">Unified Agentic Environments and Task Synthesis</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-24-unified-agentic-environments-and-task-synthesis.pdf"
+                    aria-label="Open Chapter 24 overview slides PDF: Unified Agentic Environments and Task Synthesis"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">Visual and Multimodal Agent Learning</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-25-visual-and-multimodal-agent-learning.pdf"
+                    aria-label="Open Chapter 25 overview slides PDF: Visual and Multimodal Agent Learning"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">Parallel-Agent Reinforcement Learning and Agent Swarms</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-26-parallel-agent-reinforcement-learning-and-agent-swarms.pdf"
+                    aria-label="Open Chapter 26 overview slides PDF: Parallel-Agent Reinforcement Learning and Agent Swarms"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">Structured Generation, XTML, and Walle</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-27-structured-generation-xtml-and-walle.pdf"
+                    aria-label="Open Chapter 27 overview slides PDF: Structured Generation, XTML, and Walle"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">Tool Execution, Agent State, and Durable Context</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-28-tool-execution-agent-state-and-durable-context.pdf"
+                    aria-label="Open Chapter 28 overview slides PDF: Tool Execution, Agent State, and Durable Context"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">Coding Agents: Training and Execution</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-29-coding-agents-training-and-execution.pdf"
+                    aria-label="Open Chapter 29 overview slides PDF: Coding Agents: Training and Execution"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">Case Study: Kernel Optimization as a K3 Reinforcement-Learning Domain</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-30-case-study-kernel-optimization-as-a-k3-reinforcement-learning-domain.pdf"
+                    aria-label="Open Chapter 30 overview slides PDF: Case Study: Kernel Optimization as a K3 Reinforcement-Learning Domain"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">Agent Evaluation, Correctness, and Safety</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-31-agent-evaluation-correctness-and-safety.pdf"
+                    aria-label="Open Chapter 31 overview slides PDF: Agent Evaluation, Correctness, and Safety"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
             </ol>
           </div>
           <div class="toc-volume">
             <h3>Volume III</h3>
             <ol class="toc-list" start="32" style="--chapter-start: 31">
-              <li><span class="toc-title">From Basic CUDA to Kimi Kernels</span></li>
-              <li><span class="toc-title">LLM Parallelism Foundations: From One GPU to a Distributed Model</span></li>
-              <li><span class="toc-title">FlashKDA and KDA Kernels</span></li>
-              <li><span class="toc-title">Hybrid-Attention and Depth-Mixing Kernels</span></li>
-              <li><span class="toc-title">MoE Kernels and Routed Computation</span></li>
-              <li><span class="toc-title">MoonEP and Perfectly Balanced Expert Parallelism</span></li>
-              <li><span class="toc-title">Distributed Execution for K3-Class Models</span></li>
-              <li><span class="toc-title">Memory-Efficient Training</span></li>
-              <li><span class="toc-title">Multimodal Encoder and Input-Pipeline Optimization</span></li>
-              <li><span class="toc-title">Checkpoint Engine and Online Weight Publication</span></li>
-              <li><span class="toc-title">Million-Token Agentic-RL Infrastructure</span></li>
-              <li><span class="toc-title">Mooncake and Disaggregated Serving</span></li>
-              <li><span class="toc-title">KDA-Aware Prefix Caching and Long-Context Scheduling</span></li>
-              <li><span class="toc-title">Fleet Scheduling, Admission, and Failure Recovery</span></li>
-              <li><span class="toc-title">Low-Precision Execution and Speculative Decoding</span></li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">From Basic CUDA to Kimi Kernels</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-32-from-basic-cuda-to-kimi-kernels.pdf"
+                    aria-label="Open Chapter 32 overview slides PDF: From Basic CUDA to Kimi Kernels"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">LLM Parallelism Foundations: From One GPU to a Distributed Model</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-33-llm-parallelism-foundations-from-one-gpu-to-a-distributed-model.pdf"
+                    aria-label="Open Chapter 33 overview slides PDF: LLM Parallelism Foundations: From One GPU to a Distributed Model"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">FlashKDA and KDA Kernels</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-34-flashkda-and-kda-kernels.pdf"
+                    aria-label="Open Chapter 34 overview slides PDF: FlashKDA and KDA Kernels"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">Hybrid-Attention and Depth-Mixing Kernels</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-35-hybrid-attention-and-depth-mixing-kernels.pdf"
+                    aria-label="Open Chapter 35 overview slides PDF: Hybrid-Attention and Depth-Mixing Kernels"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">MoE Kernels and Routed Computation</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-36-moe-kernels-and-routed-computation.pdf"
+                    aria-label="Open Chapter 36 overview slides PDF: MoE Kernels and Routed Computation"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">MoonEP and Perfectly Balanced Expert Parallelism</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-37-moonep-and-perfectly-balanced-expert-parallelism.pdf"
+                    aria-label="Open Chapter 37 overview slides PDF: MoonEP and Perfectly Balanced Expert Parallelism"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">Distributed Execution for K3-Class Models</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-38-distributed-execution-for-k3-class-models.pdf"
+                    aria-label="Open Chapter 38 overview slides PDF: Distributed Execution for K3-Class Models"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">Memory-Efficient Training</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-39-memory-efficient-training.pdf"
+                    aria-label="Open Chapter 39 overview slides PDF: Memory-Efficient Training"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">Multimodal Encoder and Input-Pipeline Optimization</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-40-multimodal-encoder-and-input-pipeline-optimization.pdf"
+                    aria-label="Open Chapter 40 overview slides PDF: Multimodal Encoder and Input-Pipeline Optimization"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">Checkpoint Engine and Online Weight Publication</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-41-checkpoint-engine-and-online-weight-publication.pdf"
+                    aria-label="Open Chapter 41 overview slides PDF: Checkpoint Engine and Online Weight Publication"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">Million-Token Agentic-RL Infrastructure</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-42-million-token-agentic-rl-infrastructure.pdf"
+                    aria-label="Open Chapter 42 overview slides PDF: Million-Token Agentic-RL Infrastructure"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">Mooncake and Disaggregated Serving</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-43-mooncake-and-disaggregated-serving.pdf"
+                    aria-label="Open Chapter 43 overview slides PDF: Mooncake and Disaggregated Serving"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">KDA-Aware Prefix Caching and Long-Context Scheduling</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-44-kda-aware-prefix-caching-and-long-context-scheduling.pdf"
+                    aria-label="Open Chapter 44 overview slides PDF: KDA-Aware Prefix Caching and Long-Context Scheduling"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">Fleet Scheduling, Admission, and Failure Recovery</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-45-fleet-scheduling-admission-and-failure-recovery.pdf"
+                    aria-label="Open Chapter 45 overview slides PDF: Fleet Scheduling, Admission, and Failure Recovery"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="toc-entry">
+                  <span class="toc-title">Low-Precision Execution and Speculative Decoding</span>
+                  <a
+                    class="toc-slide-link"
+                    href="chapter-overview-slides/chapter-46-low-precision-execution-and-speculative-decoding.pdf"
+                    aria-label="Open Chapter 46 overview slides PDF: Low-Precision Execution and Speculative Decoding"
+                    title="Overview slides PDF"
+                  >
+                    <span class="toc-slide-icon" aria-hidden="true">PDF</span>
+                  </a>
+                </div>
+              </li>
             </ol>
           </div>
         </div>

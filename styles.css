@@ -612,6 +612,21 @@ body.kimi-site-theme {
     var(--paper);
 }
 
+body.kimi-site-theme .toc-slide-link {
+  border-color: rgba(56, 85, 146, 0.28);
+  background: rgba(56, 85, 146, 0.06);
+}
+
+body.kimi-site-theme .toc-slide-link:hover,
+body.kimi-site-theme .toc-slide-link:focus-visible {
+  border-color: rgba(56, 85, 146, 0.48);
+  background: rgba(56, 85, 146, 0.11);
+}
+
+body.kimi-site-theme .toc-slide-link:focus-visible {
+  outline-color: rgba(56, 85, 146, 0.28);
+}
+
 .three-volume-page .hero {
   grid-template-columns: minmax(0, 1fr) minmax(340px, 540px);
 }
